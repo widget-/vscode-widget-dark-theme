@@ -1,0 +1,21 @@
+{
+    "name": "widget-dark-theme",
+    "displayName": "widget-dark-theme",
+    "description": "Mostly-dark theme with bright colors",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Widget Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Widget Dark-color-theme.json"
+            }
+        ]
+    }
+}
